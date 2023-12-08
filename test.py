@@ -58,7 +58,7 @@ def parse_args():
     parser.add_argument(
         '--gpu-id',
         type=int,
-        default=1,
+        default=0,
         help='id of gpu to use '
         '(only applicable to non-distributed testing)')
     parser.add_argument(
