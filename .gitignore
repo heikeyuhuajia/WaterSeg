@@ -1,0 +1,32 @@
+# 忽略Python虚拟环境
+venv/
+env/
+
+# 忽略IDE和编辑器生成的文件
+.idea/
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 忽略数据集
+data/
+
+# 忽略日志文件
+logs/
+
+# 忽略训练过程中生成的文件: pth, workDir...
+checkpoints/
+tensorboard/
+wandb/
+workDirs/
+
+# 忽略一些系统和配置文件
+.DS_Store
+*.swp
+*.swo
+*.bak
+*.log
+*.ini
+*.cfg
